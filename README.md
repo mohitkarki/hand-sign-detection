@@ -1,16 +1,27 @@
-# hand_sign_detection
+# Hand Sign Detection
 
-A new Flutter project.
+Real-time hand sign detection mobile application built using Flutter and TensorFlow Lite.
 
-## Getting Started
+## Features
+- Real-time sign detection
+- Camera integration
+- TensorFlow Lite model
+- Mobile-friendly UI
 
-This project is a starting point for a Flutter application.
+## Tech Stack
+- Flutter
+- Dart
+- TensorFlow Lite
+- FastAPI
+- Python
 
-A few resources to get you started if this is your first Flutter project:
+## Screenshots
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Home Screen
+![Home Screen](screenshots/home.png)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Detection Screen
+![Detection Screen](screenshots/detection.png)
+
+## Result Screen
+![Result Screen](screenshots/result.png)
