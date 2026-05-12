@@ -21,7 +21,10 @@ Real-time hand sign detection mobile application built using Flutter and TensorF
 ![Home Screen](screenshots/home.png)
 
 ## Detection Screen
-![Detection Screen](screenshots/detection.png)
+![Detection Screen](screenshots/realTime_detection-A.png)
 
-## Result Screen
-![Result Screen](screenshots/result.png)
+## Detection Screen
+![Result Screen](screenshots/realTime_detection-B.png)
+
+## Upload Screen
+![Result Screen](screenshots/upload_detection.png)
