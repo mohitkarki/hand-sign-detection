@@ -31,6 +31,14 @@ A Flutter-based Android application that detects hand signs using a custom-train
 6. The model predicts the hand sign.
 7. The predicted result is displayed and can be converted to speech.
 
+## Machine Learning Model
+
+The hand-sign detection model was trained using a custom dataset in Teachable Machine.
+
+The trained model was exported as a TensorFlow Lite (`.tflite`) model and integrated into the Flutter application using the `tflite_flutter` package.
+
+The application performs model inference on the device to predict the detected hand sign.
+
 ## Project Structure
 
 ```text
@@ -44,17 +52,39 @@ hand-sign-detection/
 ├── test/
 ├── pubspec.yaml
 └── README.md
+```
 
 ## Screenshots
 
-## Home Screen
+### Home Screen
+
 ![Home Screen](screenshots/home.png)
 
-## Detection Screen
-![Detection Screen](screenshots/realTime_detection-A.png)
+### Real-Time Detection
 
-## Detection Screen
-![Result Screen](screenshots/realTime_detection-B.png)
+![Real-Time Detection](screenshots/realTime_detection-A.png)
 
-## Upload Screen
-![Result Screen](screenshots/upload_detection.png)
+### Detection Result
+
+![Detection Result](screenshots/realTime_detection-B.png)
+
+### Image Upload Detection
+
+![Image Upload Detection](screenshots/upload_detection.png)
+
+## Key Learnings
+
+- Flutter application development
+- TensorFlow Lite model integration
+- Custom dataset preparation
+- Model training using Teachable Machine
+- Camera and image input handling
+- On-device model inference
+- Text-to-speech integration
+
+## Future Improvements
+
+- Improve model accuracy using a larger and more diverse dataset
+- Expand the model to recognize more hand signs, including additional alphabets and gestures such as the Victory (✌️) sign
+- Improve prediction stability
+- Add support for additional languages
