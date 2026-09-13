@@ -88,3 +88,7 @@ hand-sign-detection/
 - Expand the model to recognize more hand signs, including additional alphabets and gestures such as the Victory (✌️) sign
 - Improve prediction stability
 - Add support for additional languages
+
+## License
+
+This project is for educational and portfolio purposes.
